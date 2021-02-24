@@ -62,6 +62,7 @@
           <p class="font-small dark-grey-text mb-1"></p>
           <i class="dark-grey-text">{{ post.date_post }}</i>
           </p>
+          <br>
         </div>
       </div>
       <div class="card-body">
@@ -80,6 +81,7 @@
           {% include "./like.html" with post=post show=True %}
           {%endblock%}
         </div>
+
         <h3>Share this post:</h3>
         <div class="template-demo">
           {% load social_share %}
